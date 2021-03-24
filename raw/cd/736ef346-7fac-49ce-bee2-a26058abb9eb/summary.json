@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "date": "2021-03-15T13:36:04Z",
+  "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+  "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+  "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+  "evidences": [
+    {
+      "evidence_type_id": "com.ibm.code_vulnerability_scan",
+      "evidence_type_version": "1.0.0",
+      "date": "2021-03-15T13:31:38.996Z",
+      "result": "success",
+      "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+      "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+      "issues": [],
+      "artifacts": [
+        {
+          "url": "https://github.ibm.com/grzegorz-smolko/evidence-trader/blob/master/raw/ci/736ef346-7fac-49ce-bee2-a26058abb9eb/artifacts/gitsecure-vulnerability-results.json",
+          "hash": "0b2d3a62c11e56c96f7dd7f08f5a3917"
+        }
+      ],
+      "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+      "log": [
+        {
+          "url": "https://cloud.ibm.com/devops/pipelines/tekton/9520b708-5af6-457e-9da7-1c53a915916c/runs/736ef346-7fac-49ce-bee2-a26058abb9eb/code-vulnerability-scan/remediation?env_id=ibm:yp:us-south",
+          "hash": null
+        }
+      ]
+    },
+    {
+      "evidence_type_id": "com.ibm.code_bom_check",
+      "evidence_type_version": "1.0.0",
+      "date": "2021-03-15T13:31:48.781Z",
+      "result": "success",
+      "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+      "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+      "issues": [],
+      "artifacts": [],
+      "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+      "log": [
+        {
+          "url": "https://cloud.ibm.com/devops/pipelines/tekton/9520b708-5af6-457e-9da7-1c53a915916c/runs/736ef346-7fac-49ce-bee2-a26058abb9eb/cra-bom/bom?env_id=ibm:yp:us-south",
+          "hash": null
+        }
+      ]
+    },
+    {
+      "evidence_type_id": "com.ibm.code_cis_check",
+      "evidence_type_version": "1.0.0",
+      "date": "2021-03-15T13:31:45.556Z",
+      "result": "success",
+      "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+      "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+      "issues": [],
+      "artifacts": [
+        {
+          "url": "https://github.ibm.com/grzegorz-smolko/evidence-trader/blob/master/raw/ci/736ef346-7fac-49ce-bee2-a26058abb9eb/artifacts/gitsecure-cis-results.json",
+          "hash": "39a41485c8162a728f9c687d523977a2"
+        }
+      ],
+      "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+      "log": [
+        {
+          "url": "https://cloud.ibm.com/devops/pipelines/tekton/9520b708-5af6-457e-9da7-1c53a915916c/runs/736ef346-7fac-49ce-bee2-a26058abb9eb/cra-cis-check/cis?env_id=ibm:yp:us-south",
+          "hash": null
+        }
+      ]
+    },
+    {
+      "evidence_type_id": "com.ibm.unit_tests",
+      "evidence_type_version": "1.0.0",
+      "date": "2021-03-15T13:31:32.191Z",
+      "result": "success",
+      "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+      "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+      "issues": [],
+      "artifacts": [],
+      "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+      "log": [
+        {
+          "url": "https://cloud.ibm.com/devops/pipelines/tekton/9520b708-5af6-457e-9da7-1c53a915916c/runs/736ef346-7fac-49ce-bee2-a26058abb9eb/unit-tests/run-script?env_id=ibm:yp:us-south",
+          "hash": null
+        }
+      ]
+    },
+    {
+      "evidence_type_id": "com.ibm.cloud.image_vulnerability_scan",
+      "evidence_type_version": "1.0.0",
+      "date": "2021-03-15T13:31:55.496Z",
+      "result": "success",
+      "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+      "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+      "issues": [],
+      "artifacts": [
+        {
+          "url": "https://github.ibm.com/grzegorz-smolko/evidence-trader/blob/master/raw/ci/736ef346-7fac-49ce-bee2-a26058abb9eb/artifacts/app-image-va-report.json",
+          "hash": "0f1b8cf58141c1b764e68709be230b5c"
+        }
+      ],
+      "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+      "log": [
+        {
+          "url": "https://cloud.ibm.com/devops/pipelines/tekton/9520b708-5af6-457e-9da7-1c53a915916c/runs/736ef346-7fac-49ce-bee2-a26058abb9eb/vulnerability-advisor/vulnerability-advisor?env_id=ibm:yp:us-south",
+          "hash": null
+        }
+      ]
+    },
+    {
+      "evidence_type_id": "com.ibm.acceptance_tests",
+      "evidence_type_version": "1.0.0",
+      "date": "2021-03-15T13:35:06.530Z",
+      "result": "success",
+      "pipeline_id": "9520b708-5af6-457e-9da7-1c53a915916c",
+      "pipeline_run_id": "736ef346-7fac-49ce-bee2-a26058abb9eb",
+      "issues": [],
+      "artifacts": [],
+      "toolchain_crn": "crn:v1:bluemix:public:toolchain:us-south:a/b71ac2564ef0b98f1032d189795994dc:286e3b40-5099-4d87-9f12-57d2e425c64b::",
+      "log": [
+        {
+          "url": "https://cloud.ibm.com/devops/pipelines/tekton/9520b708-5af6-457e-9da7-1c53a915916c/runs/736ef346-7fac-49ce-bee2-a26058abb9eb/acceptance-test?env_id=ibm:yp:us-south",
+          "hash": null
+        }
+      ]
+    }
+  ]
+}
