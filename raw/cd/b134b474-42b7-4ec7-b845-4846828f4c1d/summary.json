@@ -62,7 +62,7 @@
       "evidence_type_id": "com.ibm.cloud.image_vulnerability_scan",
       "evidence_type_version": "1.0.0",
       "date": "2021-04-20T10:14:22.708Z",
-      "result": "failure",
+      "result": "success",
       "pipeline_id": "mypipeline_1",
       "pipeline_run_id": "mypipeline_run_1",
       "issues": [],
